@@ -1,11 +1,11 @@
 # BlioConverters.jl
 
-`BlioConverters` is a Julia package of apps that use `Blio.jl` to convert back
-and forth between SIGPROC Filterbank files and FBH5 files.  FBH5 files are HDF5
-files that contain the same information as contained in a SIGPROC Filterbank
-file.  The Filterbank file's data array is stored in the HDF5 has as a dataset
-named `data` and the Filterbank file's header items are stored as attributes of
-the `data` dataset.
+`BlioConverters` is a package of apps for Julia 1.12 (or newer) that use
+`Blio.jl` to convert back and forth between SIGPROC Filterbank files and FBH5
+files.  FBH5 files are HDF5 files that contain the same information as contained
+in a SIGPROC Filterbank file.  The Filterbank file's data array is represented
+in the HDF5 has as a dataset named `data` and the Filterbank file's header items
+are stored as attributes of the `data` dataset.
 
 ## Installation
 
